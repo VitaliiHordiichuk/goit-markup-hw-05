@@ -150,14 +150,8 @@ a {
     border-radius: 2px;
     background-color: var(--accent-color);
 transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
-
-        
 }
-.current:hover:after{
-    border: 1px solid #000000;
 
-}
 
 
 
@@ -328,11 +322,6 @@ text-transform: uppercase;
 transition-property: text-shadow, -webkit-text-stroke;
 transition-duration: 250ms;
 transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-.work .item:hover .product-sample{
-    -webkit-text-stroke: 1px #000000;
-        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-       
 }
 
 /* наша команда */
@@ -610,10 +599,7 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     margin-bottom: 30px;
     transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-/* .portfolio .item:hover,
-.portfolio .item:focus{
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-} */
+
 .portfolio-card {
     display: block;
 }
@@ -718,12 +704,15 @@ box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0p
 
 
 .btn-modal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     position: absolute;
     top: 8px;
     right: 8px;
     width: 30px;
     height: 30px;
-    background-image: url(../images/close-black-18dp.png);
+    /* background-image: url(../images/close-black-18dp.png); */
     background-size: 18px;
     background-repeat: no-repeat;
     background-position: center;
@@ -731,6 +720,6 @@ box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0p
     padding: 6px;
 border: 1px solid rgba(0, 0, 0, 0.1);
 background-color: #ffffff;
-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+
 cursor: pointer;
 }
